@@ -30,7 +30,7 @@ export function PDFModal({ isOpen, pdfName, onClose }: PDFModalProps) {
   const handleDownload = useCallback(() => {
     if (!pdfName) return
     const link = document.createElement('a')
-    link.href = `${pdfName}.pdf`
+    link.href = `/${pdfName}.pdf`
     link.download = `${pdfName}.pdf`
     link.click()
   }, [pdfName])
@@ -90,7 +90,7 @@ export function PDFModal({ isOpen, pdfName, onClose }: PDFModalProps) {
           {pdfName ? (
             <iframe
               id="pdf-frame"
-              src={`${pdfName}.pdf`}
+              src={`/${pdfName}.pdf`}
               className="w-full h-full border-none"
               title="PDF Viewer"
             />
