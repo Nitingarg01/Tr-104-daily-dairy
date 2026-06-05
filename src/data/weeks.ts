@@ -352,7 +352,7 @@ export const weeks: WeekData[] = [
       { type: 'pdf', label: 'Convolutional Neural Networks', pdf: 'CNN' },
       { type: 'link', label: 'CNN Introduction', url: 'https://colab.research.google.com/drive/1EihuRmFCatn298I3ApATt-YEP5EhfB-8' },
       { type: 'link', label: 'CNN Implementation', url: 'https://colab.research.google.com/drive/18ZL7IebICXctLlqd2GNDZBE2hX7xjHbU' },
-      { type: 'image', label: 'PowerBI - Amazon Prime Video Dashboard', url: 'Amazon-Prime-Video-Dashboard-img.png' },
+      { type: 'image', label: 'PowerBI - Amazon Prime Video Dashboard', url: '/Amazon-Prime-Video-Dashboard-img.png' },
     ],
   },
   {
@@ -370,7 +370,7 @@ export const weeks: WeekData[] = [
       { type: 'link', label: 'CNN Implementation', url: 'https://colab.research.google.com/drive/18ZL7IebICXctLlqd2GNDZBE2hX7xjHbU' },
       { type: 'link', label: 'Keras Pooling', url: 'https://colab.research.google.com/drive/1O0abrW1FgPqmUvxH21q3SUlyK4ncP2Fd' },
       { type: 'link', label: 'Keras Padding', url: 'https://colab.research.google.com/drive/1wONCw9Wkg9QvwCtU9d36kvAL4vtLNRr8' },
-      { type: 'image', label: 'PowerBI - Sales Dashboard', url: 'Sales-Dashboard-img.png' },
+      { type: 'image', label: 'PowerBI - Sales Dashboard', url: '/Sales-Dashboard-img.png' },
     ],
   },
   {

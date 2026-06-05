@@ -37,7 +37,11 @@ export function WeekModal({ week, onClose, onOpenPDF }: WeekModalProps) {
     if (item.type === 'pdf' && item.pdf) {
       onOpenPDF(item.pdf)
     } else if (item.url) {
-      window.open(item.url, '_blank', 'noopener,noreferrer')
+      const a = document.createElement('a')
+      a.href = item.url
+      a.target = '_blank'
+      a.rel = 'noopener noreferrer'
+      a.click()
     }
   }
 
